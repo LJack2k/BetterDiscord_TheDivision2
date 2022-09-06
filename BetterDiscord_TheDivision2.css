@@ -1,16 +1,11 @@
 /**
  * @name TheDivision2
- * @version 0.0.0.1
+ * @version 0.0.0.2
  * @description The Division 2 Style of theme
- * @source https://github.com/LJack2k/BetterDiscord_TheDivision2/BetterDiscord_TheDivision2.css
- * @updateUrl https://github.com/LJack2k/BetterDiscord_TheDivision2/BetterDiscord_TheDivision2.css
- * @website 
- * @donate 
- * @patreon 
- * @invite 
+ * @source https://raw.githubusercontent.com/LJack2k/BetterDiscord_TheDivision2/main/BetterDiscord_TheDivision2.css
+ * @updateUrl https://raw.githubusercontent.com/LJack2k/BetterDiscord_TheDivision2/main/BetterDiscord_TheDivision2.css
  * @author LJack2k#0485
  * @authorId 188593695749046272
- * @authorLink 
 */
 :root {
     --div-highlight-orange: #ED6E14;

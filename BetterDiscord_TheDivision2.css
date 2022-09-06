@@ -12,3 +12,180 @@
  * @authorId 188593695749046272
  * @authorLink 
 */
+:root {
+    --div-highlight-orange: #ED6E14;
+    --div-mid-orange: #843414;
+    --div-dark-orange: #522302;
+    --div-panel-border-radius: 10px;
+    --div-panel-background: transparent;
+    --background-tertiary: transparent;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+}
+
+#app-mount {
+    background: rgb(45,45,45);
+    background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(25 16 0) 100%);
+}
+
+/* Guild navigation */
+.scroller-3X7KbA {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    border-radius-bottom-right: 5px;
+}
+
+/* channels in guild */
+nav.container-1NXEtd {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* User Controls under channels */
+section.panels-3wFtMD {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* Top nagication bar */
+section.title-31SJ6t {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+
+/* whole chat box section including members and nav bar at the top */
+.chat-2ZfjoI {
+}
+
+
+/* chat messages */
+.messagesWrapper-RpOMA3 {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* Chatbox form including typing */
+form.form-3gdLxP {
+    padding: 0px;
+    margin: 5px 5px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid var(--div-highlight-orange);
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+}
+
+/* Chatbox */
+.webkit-QgSAqd {
+    background: var(--div-panel-background);
+    border-radius: 10px;
+}
+
+.typing-2J1mQU {
+    background: var(--div-panel-background);
+    position: unset;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.channelTextArea-1VQBuV {
+    margin: 0px;
+}
+
+.container-2o3qEW {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin: 5px 0px 0px 0px;
+    height: unset;
+}
+
+.members-3WRCEx, .members-3WRCEx > div {
+    background: transparent;
+}
+
+.unread-36eUEm {
+    background: #482f01;
+    width: 100%;
+    height: 16px;
+    position: relative;
+    top: 25px;
+}
+
+
+/* in channel timestamp divider*/
+span.content-3spvdd {
+    background: black;
+    border-color: var(--div-mid-orange);
+    border-width: 1px;
+    border-style: solid;
+    color: var(--div-mid-orange);
+    border-radius: 4px;
+}
+
+.divider-2rZFJK {
+    background: var(--div-mid-orange);
+}
+/*End in channel timestamp divider*/
+
+nav.privateChannels-oVe7HL {
+    border-radius: var(--div-panel-border-radius);
+    background: var(--div-panel-background);
+    border: 1px solid var(--div-highlight-orange);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.newMessagesBar-1hF-9G {
+    background: var(--div-highlight-orange);
+    color: black;
+}
+
+.selected-2TbFuo {
+    /* background: black; */
+    /* color: orange; */
+    /* border: 1px solid red; */
+}
+
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH {
+    /* outline: 1px solid red; */
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ {
+    background: var(--div-dark-orange);
+    color: white;
+}
+
+    .modeSelected-3DmyhH .content-1gYQeQ:hover {
+        background: var(--div-mid-orange);
+        color: white;
+    }
+
+
+.iconContainer-21RCa3 {
+    color: white;
+}
+
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: white;
+}
+
+.wrapper-NhbLHG:hover {
+    background: var(--div-mid-orange);
+}

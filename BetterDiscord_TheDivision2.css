@@ -1,14 +1,14 @@
 /**
  * @name TheDivision2
- * @version 0.0.0.2
+ * @version 0.0.0.3
  * @description The Division 2 Style of theme
- * @source https://raw.githubusercontent.com/LJack2k/BetterDiscord_TheDivision2/main/BetterDiscord_TheDivision2.css
- * @updateUrl https://raw.githubusercontent.com/LJack2k/BetterDiscord_TheDivision2/main/BetterDiscord_TheDivision2.css
+ * @source https://github.com/LJack2k/BetterDiscord_TheDivision2/BetterDiscord_TheDivision2.css
+ * @updateUrl https://github.com/LJack2k/BetterDiscord_TheDivision2/BetterDiscord_TheDivision2.css
  * @author LJack2k#0485
  * @authorId 188593695749046272
 */
 :root {
-    --div-highlight-orange: #ED6E14;
+    --div-highlight-orange: #EC6E14;
     --div-mid-orange: #843414;
     --div-dark-orange: #522302;
     --div-panel-border-radius: 10px;
@@ -23,28 +23,36 @@
     background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(25 16 0) 100%);
 }
 
-/* Guild navigation */
-.scroller-3X7KbA {
+/* Border */
+.peopleColumn-1wMU14,
+.container-ZMc96U,
+.container-1oAagU,
+.scroller-3X7KbA,
+nav.container-1NXEtd,
+section.panels-3wFtMD,
+section.title-31SJ6t,
+.messagesWrapper-RpOMA3,
+form.form-3gdLxP,
+.container-2o3qEW,
+nav.privateChannels-oVe7HL {
     border-radius: var(--div-panel-border-radius);
     background: var(--div-panel-background);
     border: 1px solid var(--div-highlight-orange);
+}
+
+/* Guild navigation */
+.scroller-3X7KbA {
     border-radius-bottom-right: 5px;
 }
 
 /* channels in guild */
 nav.container-1NXEtd {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin-left: 5px;
     margin-right: 5px;
 }
 
 /* User Controls under channels */
 section.panels-3wFtMD {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin-left: 5px;
     margin-top: 5px;
     margin-right: 5px;
@@ -52,9 +60,6 @@ section.panels-3wFtMD {
 
 /* Top nagication bar */
 section.title-31SJ6t {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin: 0px 5px 0px 0px;
     padding: 0px;
 }
@@ -66,9 +71,6 @@ section.title-31SJ6t {
 
 /* chat messages */
 .messagesWrapper-RpOMA3 {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin: 0px;
     margin-top: 5px;
     margin-right: 5px;
@@ -81,9 +83,6 @@ form.form-3gdLxP {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 1px solid var(--div-highlight-orange);
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
 }
 
 /* Chatbox */
@@ -104,9 +103,6 @@ form.form-3gdLxP {
 }
 
 .container-2o3qEW {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin: 5px 0px 0px 0px;
     height: unset;
 }
@@ -127,11 +123,9 @@ form.form-3gdLxP {
 /* in channel timestamp divider*/
 span.content-3spvdd {
     background: black;
-    border-color: var(--div-mid-orange);
-    border-width: 1px;
-    border-style: solid;
-    color: var(--div-mid-orange);
+    border: 1px solid var(--div-mid-orange);
     border-radius: 4px;
+    color: var(--div-mid-orange);
 }
 
 .divider-2rZFJK {
@@ -140,9 +134,6 @@ span.content-3spvdd {
 /*End in channel timestamp divider*/
 
 nav.privateChannels-oVe7HL {
-    border-radius: var(--div-panel-border-radius);
-    background: var(--div-panel-background);
-    border: 1px solid var(--div-highlight-orange);
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -152,25 +143,15 @@ nav.privateChannels-oVe7HL {
     color: black;
 }
 
-.selected-2TbFuo {
-    /* background: black; */
-    /* color: orange; */
-    /* border: 1px solid red; */
-}
-
-.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH {
-    /* outline: 1px solid red; */
-}
-
 .modeSelected-3DmyhH .content-1gYQeQ {
     background: var(--div-dark-orange);
     color: white;
 }
 
-    .modeSelected-3DmyhH .content-1gYQeQ:hover {
-        background: var(--div-mid-orange);
-        color: white;
-    }
+.modeSelected-3DmyhH .content-1gYQeQ:hover {
+    background: var(--div-mid-orange);
+    color: white;
+}
 
 
 .iconContainer-21RCa3 {
@@ -183,4 +164,29 @@ nav.privateChannels-oVe7HL {
 
 .wrapper-NhbLHG:hover {
     background: var(--div-mid-orange);
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+    background: var(--div-panel-background);
+}
+
+.container-ZMc96U {
+    margin-bottom: 5px;
+}
+
+.peopleColumn-1wMU14 {
+}
+
+.container-1oAagU {
+    margin: 0px 0px 0px 5px;
+    height: 99.8%;
+}
+
+.children-3xh0VB {
+}
+
+
+.title-17SveM,
+svg.icon-2xnN2Y {
+    color: var(--div-highlight-orange);
 }
